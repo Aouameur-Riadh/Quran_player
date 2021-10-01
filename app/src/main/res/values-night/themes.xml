@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#6ED5A1</item>
+        <item name="colorPrimaryVariant">#6ED5A1</item>
+        <item name="colorOnPrimary">#6ED5A1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#f4511e</item>
+        <item name="android:progressTint">#388e3c</item>
+        <item name="android:thumbTint">#c51162</item>
+    </style>
+
+</resources>
